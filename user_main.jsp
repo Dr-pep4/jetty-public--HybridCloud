@@ -185,7 +185,7 @@
                     rs = stmt.executeQuery(sql);
             %>
             <div id="header_bar">
-                <h2>GIT Trigger</h2>
+                <h2>For Quay.io</h2>
             </div>
 
             <div id="all_items">
