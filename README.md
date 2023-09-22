@@ -15,6 +15,7 @@
 |backend|admin_main.jsp|관리 페이지|
 |backend|enroll.jsp|물품 등록|
 |backend|delete.jsp|물품 삭제|
+|database|jdbc-config.xml|RDS연결|
 |Deployment|Dockerfile|이미지 배포|
 |Git-Action|Openshift.yml|이미지 자동 배포|
 |Git-Action|slack.yaml|슬랙 알림|
