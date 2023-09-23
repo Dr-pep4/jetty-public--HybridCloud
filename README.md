@@ -9,7 +9,7 @@ Public-cloud는 트래픽 감당, Private-cloud는 데이터의 보안의 역할
 
 <br>
  
-#### 3Tier - backend
+#### 기존 구성 3Tier - backend
 
 - 3 tier에서는 frontend에서 Nginx를 사용하고 Nginx의 index.html에서 바로 회원가입 후 로그인하여 backend인 Jetty에 접속하게 하였다.
 - backend에서 동작할 어플레이케이션 JSP파일과, 배포를 위해 Dockerfile, RDS와의 연결을 위한 JDBC설정 파일, CI/CD를 위한 .yml파일로 구성되어 있다.
@@ -36,7 +36,7 @@ Public-cloud는 트래픽 감당, Private-cloud는 데이터의 보안의 역할
 <br>
    
     
-#### HybridCloud - backend
+#### 변형된 구성 HybridCloud - backend
 
 - 기존의 3tier 구성에서 hybrid-cloud 구조에서 Public-cloud에서 사용하기 위해 구성을 변경하였다.
 - public-cloud에서 유저들이 접속가능하며 상품 데이터를 읽기만 하는 메인페이지와 상세페이지를 분리시켰다.
