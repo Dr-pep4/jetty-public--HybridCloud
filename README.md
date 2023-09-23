@@ -41,7 +41,7 @@ Public-cloud는 트래픽 감당, Private-cloud는 데이터의 보안의 역할
 - 기존의 3tier 구성에서 hybrid-cloud 구조에서 Public-cloud에서 사용하기 위해 구성을 변경하였다.
 - public-cloud에서 유저들이 접속가능하며 상품 데이터를 읽기만 하는 메인페이지와 상세페이지를 분리시켰다.
 - Public-cloud, Private-cloud 에서 공통적으로  Git-Action, JDBC, Dockerfile이 사용된다
-    Git-Action은 할당되는 변수 값에만 약간의 변화가 있고, JDBC는 동일하며, Dockerfile은 jsp파일 의 구성이 다르다
+    Git-Action에 사용되는 workflow는 할당되는 변수 값에만 약간의 변화가 있고, JDBC는 동일하며, Dockerfile은 jsp파일 의 구성이 다르다
   
 <br>
 
