@@ -6,6 +6,11 @@
 
 #### 3Tier-backend
 
+
+
+<div style="display: flex; justify-content: space-between;">
+    <div style="width: 48%;"> 
+      
 |function|file|Role|
 |:-:|:-:|:-:|
 |backend|main.jsp|메인페이지|
@@ -19,3 +24,15 @@
 |Deployment|Dockerfile|이미지 배포|
 |Git-Action|Openshift.yml|이미지 자동 배포|
 |Git-Action|slack.yaml|슬랙 알림|
+
+    
+
+|function|file|Role|
+|:-:|:-:|:-:|
+|backend|user_main.jsp|메인페이지|
+|backend|user_detail.jsp|상세페이지|
+|database|jdbc-config.xml|RDS연결|
+|Deployment|Dockerfile|이미지 배포|
+|Git-Action|Openshift.yml|이미지 자동 배포|
+|Git-Action|slack.yaml|슬랙 알림|
+    
