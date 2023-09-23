@@ -130,7 +130,7 @@ CMD ["java", "-jar", "start.jar"]
 
 <br>
 
-### 1.openshift.yml
+### 1. openshift.yml
 
 ```
 name: Restart OpenShift Build
@@ -179,7 +179,7 @@ jobs:
 
 <br>
 
-### 2.slack.yml
+### 2. slack.yml
 
 ```
 name: Slack Notification
