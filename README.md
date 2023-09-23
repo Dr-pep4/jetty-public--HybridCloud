@@ -1,7 +1,10 @@
 # jetty_public Jetty in Public Cloud
 
 ### Overview
-- 기존의 3Tier 구성의 어플리케이션을 하이브리드 클라우드에서 사용하기 위해
+기존의 3Tier 구성의 어플리케이션을 하이브리드 클라우드에서 사용하기 위해 backend의 기능을 분리하였다.
+user들의 접근이 많은 페이지를 Public-cloud, data의 읽기 쓰기가 가능한 페이지들은 Private-cloud에 분리하여
+Public-cloud는 트래픽 감당, Private-cloud는 데이터의 보안의 역할을 부여했다.
+
 <img width="625" alt="스크린샷 2023-09-19 오후 11 48 09" src="https://github.com/Dr-pep4/jetty_public/assets/102319207/9b1ed93f-77db-4d6f-88de-4c2494b00e45">
 
 <br>
